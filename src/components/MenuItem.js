@@ -8,7 +8,7 @@ const MenuItem = ({element}) => {
    </div>
     <section className='menu-item-container'>
       <div className='image-container'>
-         <img src={element.img} alt=''/>
+         <img src={element.img} className='menu-img' alt=''/>
       </div>
       <div className='menu-text menu-item'>
           <h1 className='menu-heading'>{element.title}</h1>

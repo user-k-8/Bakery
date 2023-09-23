@@ -178,7 +178,7 @@ article>img{
  
 }
 
-img{
+.menu-img{
   max-height: 29rem;
   border-radius: 20px;
   max-width: 25rem;
@@ -290,7 +290,7 @@ hr{
     width:100%;
 
   }
-  img{
+  .menu-img{
     border-radius: 20px;
     max-width: 95%;
   }
