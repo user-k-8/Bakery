@@ -11,11 +11,8 @@ const Menu = () => {
     )
   })
   return (
-  <>
+  <div>
     <header className='hero-container'> 
-        <div className='img-container'>
-           <img src={logo} alt=''/>
-        </div>
          <div>
             <NavBar/>
          </div>
@@ -28,10 +25,10 @@ const Menu = () => {
        <h1 className='about-heading'>Homemade Bakery - Our Menu</h1>
        </div>
        <div>
-      {MenuItems}
+           {MenuItems}
       </div>
      </main>
- </>
+ </div>
   )
 }
 
